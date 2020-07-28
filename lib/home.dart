@@ -24,7 +24,9 @@ class Home extends StatelessWidget {
                     shape: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('/consumption');
+                    },
                   ),
                   RaisedButton(
                     child: Text("説明"),
@@ -32,7 +34,9 @@ class Home extends StatelessWidget {
                     shape: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('/info');
+                    },
                   ),
                 ],
               ),
