@@ -6,9 +6,9 @@ class Consumption extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Welcome to Flutter'),
-          ),
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
           body:Column(
             children: <Widget>[
               Container(
